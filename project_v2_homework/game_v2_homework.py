@@ -1,6 +1,6 @@
 import numpy as np
 
-def random_predict(number:int=1) -> int:
+def random_predict_v2(number:int=1) -> int:
     """Рандомно угадываем число
 
     Args:
@@ -28,8 +28,8 @@ def random_predict(number:int=1) -> int:
                 break        
     return(count)
 
-print(f'Количество попыток: {random_predict()}')
-def score_game(random_predict) -> int:
+print(f'Количество попыток: {random_predict_v2()}')
+def score_game_v2(random_predict_v2) -> int:
     """За какое количество попыток в среднем из 1000 подходов угадывает наш алгоритм
 
     Args:
@@ -44,7 +44,7 @@ def score_game(random_predict) -> int:
     random_array = np.random.randint(1, 101, size=(1000)) # загадали список чисел
 
     for number in random_array:
-        count_ls.append(random_predict(number))
+        count_ls.append(random_predict_v2(number))
 
     score = int(np.mean(count_ls)) # находим среднее количество попыток
 
@@ -54,4 +54,4 @@ def score_game(random_predict) -> int:
 
 # RUN
 if __name__ == '__main__':
-    score_game(random_predict)
+    score_game_v2(random_predict_v2)
