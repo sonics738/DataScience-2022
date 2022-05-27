@@ -1,6 +1,6 @@
 import numpy as np
 
-def random_predict_v2(number:int=1) -> int:
+def random_predict(number:int=1) -> int:
     """Рандомно угадываем число
 
     Args:
@@ -11,33 +11,29 @@ def random_predict_v2(number:int=1) -> int:
     """
 
     count = 0
-    min = 1
-    max = 100
+    min = 0
+    max = 101
+    mid = round((min + max)/2)
+    predict_number = np.random.randint(1, 101) # предполагаемое число
+    
+    for number in range (min,max):
 
-    while True:
-        count += 1
-        predict_number = np.random.randint(1, 101) # предполагаемое число
-    
-        mid = round((min+max) / 2)
-    
-        if mid > number:
-            max = mid
-    
-        elif mid < number:
-            min = mid
-
-        else:
-            print(count)
-        break #конец игры выход из цикла
-            
+        while number != predict_number :
+            count += 1      
+                    
+            if predict_number < mid:
+                max = mid
+            else :
+                min = mid
+                break        
     return(count)
 
-print(f'Количество попыток: {random_predict_v2()}')
-def score_game(random_predict_v2) -> int:
+print(f'Количество попыток: {random_predict()}')
+def score_game(random_predict) -> int:
     """За какое количество попыток в среднем из 1000 подходов угадывает наш алгоритм
 
     Args:
-        random_predict_v2 ([type]): функция угадывания
+        random_predict ([type]): функция угадывания
 
     Returns:
         int: среднее количество попыток
@@ -48,11 +44,14 @@ def score_game(random_predict_v2) -> int:
     random_array = np.random.randint(1, 101, size=(1000)) # загадали список чисел
 
     for number in random_array:
-        count_ls.append(random_predict_v2(number))
+        count_ls.append(random_predict(number))
 
     score = int(np.mean(count_ls)) # находим среднее количество попыток
 
-    print(f'Ваш алгоритм угадывает число в среднем за {score} попыток')
+    print(f'Ваш алгоритм угадывает число в среднем за: {score} попыток')
     return(score)
 
+
 # RUN
+if __name__ == '__main__':
+    score_game(random_predict)
