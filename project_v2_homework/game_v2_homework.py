@@ -10,25 +10,25 @@ def random_predict_v2(number:int=1) -> int:
         int: Число попыток
     """
 
-    count = 0
-    min = 0
-    max = 101
-    mid = round((min + max)/2)
-    predict_number = np.random.randint(1, 101) # предполагаемое число
+    count = 1
+    min_num = 1
+    max_num = 100
+    predict_number = round((max_num + min_num)/2) #предполаганмое число
     
-    for number in range (min,max):
-
-        while number != predict_number :
-            count += 1      
-                    
-            if predict_number < mid:
-                max = mid
-            else :
-                min = mid
-                break        
+    while min_num <= max_num:
+        predict_number = round((max_num + min_num)/2) #предполаганмое число
+        if predict_number == number:
+            return predict_number
+        if number > predict_number:
+            max_num = predict_number - 1
+        else:
+            min_num = predict_number +1
+        count+=1       
+        
     return(count)
 
 print(f'Количество попыток: {random_predict_v2()}')
+
 def score_game_v2(random_predict_v2) -> int:
     """За какое количество попыток в среднем из 1000 подходов угадывает наш алгоритм
 
