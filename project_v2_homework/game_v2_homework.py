@@ -12,16 +12,17 @@ def random_predict_v2(number:int=1) -> int:
 
     count = 1
     min_num = 1
-    max_num = 100
+    max_num = 1000
     
     while min_num <= max_num:
         predict_number = round((max_num + min_num)/2) #предполагаемое число
         if predict_number == number:
-            break #выход из цикла, если угадаем
-        if number > predict_number:
+            break #выход из цикла, если угадаем, а если нет,
+                  #то последовательно сужаем границы поиска вдвое 
+        if number < predict_number:
             max_num = predict_number - 1
         else:
-            min_num = predict_number +1
+            min_num = predict_number + 1
         count+=1       
         
     return(count)
