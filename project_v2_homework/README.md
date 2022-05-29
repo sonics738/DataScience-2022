@@ -1,34 +1,34 @@
-# Проект 01: Угадай число менее чем за 20 попыток
+# Project 01: Guess the number for less than 20 attempts
 
-## Оглавление
-[1. Описание проекта](https://github.com/sonics738/DataScience-2022/tree/main/project_v2_homework/README.md#Описание-проекта)  
-[2. Какой кейс решаем?](https://github.com/sonics738/DataScience-2022/tree/main/project_v2_homework/README.md#Какой-кейс-решаем?)  
-[3. Краткая информация о данных](https://github.com/sonics738/DataScience-2022/tree/main/project_v2_homework/README.md#Краткая-информация-о-данных)  
-[4. Этапы работы над проектом](https://github.com/sonics738/DataScience-2022/tree/main/project_v2_homework/README.md#Этапы-работы-над-проектом)  
-[5. Результаты](https://github.com/sonics738/DataScience-2022/tree/main/project_v2_homework/README.md#Результаты)  
-[6. Выводы](https://github.com/sonics738/DataScience-2022/tree/main/project_v2_homework/README.md#Выводы)
+## Table of contents
+[1. Project description](https://github.com/sonics738/DataScience-2022/tree/main/project_v2_homework/README.md#Описание-проекта)  
+[2. Project objective](https://github.com/sonics738/DataScience-2022/tree/main/project_v2_homework/README.md#Какой-кейс-решаем?)  
+[3. Brief data information](https://github.com/sonics738/DataScience-2022/tree/main/project_v2_homework/README.md#Краткая-информация-о-данных)  
+[4. Project stages](https://github.com/sonics738/DataScience-2022/tree/main/project_v2_homework/README.md#Этапы-работы-над-проектом)  
+[5. Result](https://github.com/sonics738/DataScience-2022/tree/main/project_v2_homework/README.md#Результаты)  
+[6. Conclusion](https://github.com/sonics738/DataScience-2022/tree/main/project_v2_homework/README.md#Выводы)
 
-### Описание проекта
-Угадать загаданное компьютером число за минимальное количество попыток
+### Project description
+To guess the number randomly selected by computer for minimum attempts
 
-:arrow_up:[к оглавлению](https://github.com/sonics738/DataScience-2022/tree/main/project_v2_homework/README.md#Оглавление)
+:arrow_up:[to Table of contents](https://github.com/sonics738/DataScience-2022/tree/main/project_v2_homework/README.md#Оглавление)
 
-### Какой кейс решаем
-Нужно написать програму, которая угадывает число за минимальное количество попыток.
+### Project objective
+To wright the code, guessing the random number for minimum attempts.
 
-**Условия соревнования:**
-- Компьютер загадывает целое число от 0 до 100 и нам его нужно угадать. Под "угадать" подразумевается "написать програму, которая угадывает число."
-- Алгоритм програмы учитывает информацию, больше ли случайное число или меньше нужного нам. 
-- Функция должна угадать число менее, чем за 20 попыток 
-- Представлен шаблон [*<ins>baseline<ins>*](https://colab.research.google.com/drive/1k2WZD8PWWOYFHrpAJoB2eZw06ID7KnFA) из скринкаста
+**Requirements:**
+- Computer is randomly selecting the number, between 0 and 100 and we need to wright the code to guess it.
+- Code algorithm should consider whenever random number less or more of guessed number. 
+- Code should use less than 20 attempts. 
+- There is templates [*<ins>baseline<ins>*](https://colab.research.google.com/drive/1k2WZD8PWWOYFHrpAJoB2eZw06ID7KnFA) from screencast
 
-**Метрика качества**  
-- Результаты оцениваются по среднему количеству попыток при 1000 повторений 
+**Quality metric**  
+- Result would be evalueted based on average number of attempts out of 1000. 
 
-**Что практикуем**
-- Учимся писать хороший код на Python
-- Учимся работать с IDE
-- Учимся работать c GitHub
-### Краткая информация о данных
+**Our goals:**
+- Learning to wright correct code in Python
+- Learning to work with IDE
+- Learning to work with GitHub
+### Brief data information
 ....
-:arrow_up:[к оглавлению](https://github.com/sonics738/DataScience-2022/blob/main/project_0/README.md#Оглавление)
+:arrow_up:[to Table of contents](https://github.com/sonics738/DataScience-2022/blob/main/project_0/README.md#Оглавление)
