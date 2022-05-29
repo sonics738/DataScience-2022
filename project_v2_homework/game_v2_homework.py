@@ -30,7 +30,7 @@ def random_predict_v2(number:int=1) -> int:
 print(f'Количество попыток: {random_predict_v2()}')
 
 def score_game_v2(random_predict_v2) -> int:
-    """За какое количество попыток в среднем из 1000 подходов угадывает наш алгоритм
+    """При каком количестве попыток в среднем из 1000 подходов угадывает наш алгоритм
 
     Args:
         random_predict ([type]): функция угадывания
@@ -41,7 +41,7 @@ def score_game_v2(random_predict_v2) -> int:
 
     count_ls = [] # список для сохранения количества попыток
     np.random.seed(1) # фиксируем сид для воспроизводимости
-    random_array = np.random.randint(1, 101, size=(1000)) # загадали список чисел
+    random_array = np.random.randint(1, 1001, size=(1000)) # загадали список чисел
 
     for number in random_array:
         count_ls.append(random_predict_v2(number))
@@ -53,5 +53,4 @@ def score_game_v2(random_predict_v2) -> int:
 
 
 # RUN
-if __name__ == '__main__':
-    score_game_v2(random_predict_v2)
+
