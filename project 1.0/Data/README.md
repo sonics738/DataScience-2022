@@ -12,11 +12,11 @@
 
 Нам предстоит решить часть настоящей бизнес-задачи и примерить на себе роль аналитика в компании HeadHunter. 
 
-[Здесь][][Здесь]: https://nbviewer.org/github/sonics738/DataScience-2022/blob/main/project%201.0/Data/Project-1.ipynb можно увидеть Notebook с интерактивными графиками на платформе nbwiewer. А [здесь][][здесь]: https://colab.research.google.com/drive/1jCTIat4B-Z0nDACw3LUtw5QB0iyJ0J0t на интернет платформе Colab.
+[Здесь](https://nbviewer.org/github/sonics738/DataScience-2022/blob/main/project%201.0/Data/Project-1.ipynb) можно увидеть Notebook с интерактивными графиками на платформе nbwiewer. А [здесь](https://colab.research.google.com/drive/1jCTIat4B-Z0nDACw3LUtw5QB0iyJ0J0t) на интернет платформе Colab.
 
 ### Суть решаемой задачи  
 
-:arrow_up:[к оглавлению](_https://github.com/sonics738/DataScience-2022/blob/main/project%201.0/Data/README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/sonics738/DataScience-2022/blob/main/project%201.0/Data/README.md#Оглавление)
 
 В нашем распоряжении будет база резюме, выгруженная с сайта поиска вакансий hh.ru.
 
@@ -26,9 +26,9 @@
 
 Компания HeadHunter хочет построить модель, которая бы автоматически определяла примерный уровень заработной платы, подходящей пользователю, исходя из информации, которую он указал о себе. Но, как вы знаете, прежде чем построить модель, данные необходимо преобразовать, исследовать и очистить. В этом и состоит суть поставленной задачи.
 
-:arrow_up:[к оглавлению](_https://github.com/sonics738/DataScience-2022/blob/main/project%201.0/Data/README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/sonics738/DataScience-2022/blob/main/project%201.0/Data/README.md#Оглавление)
 
-**Условия выполнения:**  
+### Условия выполнения:
 
 - Решение оформляется только в Jupyter Notebook.
 
@@ -42,15 +42,15 @@
 
 - Обязательное требование: графики должны содержать название, отражающее их суть, и подписи осей. Выводы к графикам оформляются в формате Markdown под самим графиком в отдельной ячейке, в виде небольших связанных предложений на русском языке.
 
-:arrow_up:[к оглавлению](_https://github.com/sonics738/DataScience-2022/blob/main/project%201.0/Data/README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/sonics738/DataScience-2022/blob/main/project%201.0/Data/README.md#Оглавление)
 
 ### Краткая информация о данных
 
-- Это основной [файл][][файл]: https://drive.google.com/file/d/1Kb78mAWYKcYlellTGhIjPI-bCcKbGuTn/view , который содержит базу данных резюме, выгруженную с сайта ваканский hh.ru. Данные содержат более 45 тысяч записей и охватывают период с 10 Апреля 2018 по 15 Мая 2019 по всем городам РФ. 
+- Это основной [файл](https://drive.google.com/file/d/1Kb78mAWYKcYlellTGhIjPI-bCcKbGuTn/view) , который содержит базу данных резюме, выгруженную с сайта ваканский hh.ru. Данные содержат более 45 тысяч записей и охватывают период с 10 Апреля 2018 по 15 Мая 2019 по всем городам РФ. 
 
-- Этот [файл][][файл]:https://mfd.ru/  скачан с профильного интернет ресурса mfd.ru. Файл содержит курсы различных валют за период с 29.12.2017 по 05.12.2019 и будет необходим в процессе преобразований.
+- Этот [файл](https://mfd.ru/)  скачан с профильного интернет ресурса mfd.ru. Файл содержит курсы различных валют за период с 29.12.2017 по 05.12.2019 и будет необходим в процессе преобразований.
   
-:arrow_up:[к оглавлению](_https://github.com/sonics738/DataScience-2022/blob/main/project%201.0/Data/README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/sonics738/DataScience-2022/blob/main/project%201.0/Data/README.md#Оглавление)
 
 
 ### Этапы работы над проектом  
@@ -63,7 +63,7 @@
 
 4. Очистка данных
 
-:arrow_up:[к оглавлению](_https://github.com/sonics738/DataScience-2022/blob/main/project%201.0/Data/README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/sonics738/DataScience-2022/blob/main/project%201.0/Data/README.md#Оглавление)
 
 
 ### Выводы:  
@@ -81,4 +81,4 @@
 В результате анализа мы обнаружили потенциальные выбросы в признаке Возраст. Это оказались резюме людей, чей возраст слишком преклонный для поиска работы.
 Мы вывели таблицу с полученными выбросами и оценили с каким возрастом соискатели попадают под категорию выбросов.
 
-:arrow_up:[к оглавлению](_https://github.com/sonics738/DataScience-2022/blob/main/project%201.0/Data/README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/sonics738/DataScience-2022/blob/main/project%201.0/Data/README.md#Оглавление)
