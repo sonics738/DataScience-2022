@@ -1,12 +1,12 @@
 # Проект 1.0.  Анализ резюме из HeadHunter
 
 ## Оглавление  
-[1. Описание проекта](.README.md#Описание-проекта)  
-[2. Суть решаемой задачи](.README.md#Суть-решаемой-задачи)
-[3. Условия выполнения](.README.md#Условия-выполнения) 
-[4. Краткая информация о данных](.README.md#Краткая-информация-о-данных)  
-[5. Этапы работы над проектом](.README.md#Этапы-работы-над-проектом)     
-[6. Выводы](.README.md#Выводы) 
+[1. Описание проекта](https://github.com/sonics738/DataScience-2022/blob/main/project%201.0/Data/README.md#Описание-проекта)  
+[2. Суть решаемой задачи](https://github.com/sonics738/DataScience-2022/blob/main/project%201.0/Data/README.md#Суть-решаемой-задачи)
+[3. Условия выполнения](https://github.com/sonics738/DataScience-2022/blob/main/project%201.0/Data/README.md#Условия-выполнения) 
+[4. Краткая информация о данных](https://github.com/sonics738/DataScience-2022/blob/main/project%201.0/Data/README.md#Краткая-информация-о-данных)  
+[5. Этапы работы над проектом](https://github.com/sonics738/DataScience-2022/blob/main/project%201.0/Data/README.md#Этапы-работы-над-проектом)     
+[6. Выводы](https://github.com/sonics738/DataScience-2022/blob/main/project%201.0/Data/README.md#Выводы) 
 
 ### Описание проекта 
 
